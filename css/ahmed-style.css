@@ -1,0 +1,63 @@
+ /* General */
+ body {
+     box-sizing: border-box;
+ }
+
+ /* Navbar */
+ .header-navbar {
+     background-color: #212529;
+ }
+
+ /* Content */
+ .widget {
+     margin-bottom: 35px;
+     border: 1px solid #eeeded;
+     padding: 15px;
+     background-color: #fff;
+     position: relative;
+ }
+
+ .widget h4.widget-title {
+     text-transform: uppercase;
+     font-size: 16px;
+     color: #212529;
+     text-align: center;
+     margin-bottom: 20px;
+     font-weight: 700;
+ }
+
+
+ .search-filter .from, .search-filter .to, .search-filter .departure, .search-filter .arrival, .search-filter .check-in, .search-filter .check-out {
+     position: relative;
+ }
+
+ .search-filter .from input, .search-filter .to input, .search-filter .departure input, .search-filter .arrival input,.search-filter .check-in input,
+ .search-filter .check-out input{
+     text-indent: 25px;
+ }
+
+ .search-filter .from .fa-map-marker-alt, .search-filter .to .fa-map-marker-alt, .search-filter .departure .fa-plane-departure,
+  .search-filter .arrival .fa-plane-arrival,.search-filter .check-in .fa-calendar,.search-filter .check-out .fa-calendar {
+     position: absolute;
+     top: 10px;
+     left: 7px;
+     font-size: 15px;
+ }
+
+ .card .flight{
+     font-size: 14px;
+ }
+
+ .location, .car span{
+     font-size: 13px;
+     color: gray;
+ }
+
+ .star{
+     color: gray;
+     font-size: 12px;
+ }
+
+ .star .review{
+     color: yellow;
+ }
