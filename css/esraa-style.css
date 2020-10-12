@@ -127,7 +127,7 @@ li{
 }
 
 .team .box{
-    height: 46vh;
+    height: 48vh;
     overflow :hidden;
     /* border: rgb(156, 153, 153) solid .1px; */
 }
@@ -204,10 +204,6 @@ li{
     filter: brightness(.2);
 
 }
-
-
-
-
 
 
 .carousel{
@@ -299,13 +295,17 @@ padding: 0;
 background: transparent;
 
 }
+.faq-style1-sec .card-header a{
+    text-align: start;
+
+}
 .faq-style1-sec .card {
 	border: none;
 	border-radius: 0;
 	-webkit-box-shadow: 0;
 	box-shadow: 0 1px 1px rgba(0,0,0,.0);
 	padding-bottom: 15px !important;
-	transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
 }
 .faq-style1-sec .card-header a {
 color:#011e40;
