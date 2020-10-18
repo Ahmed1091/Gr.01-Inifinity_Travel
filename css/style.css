@@ -1855,6 +1855,26 @@ a.button:hover {
   z-index: 2;
 }
 
+@media (min-width: 992px) and (max-width:1024px)
+{
+  .explore-section .advertising .adv-content {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #f7c5a8;
+    border-radius: 50%;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    transform: rotate(-25deg);
+    padding: 10px;
+    overflow: hidden;
+    color: var(--main-color);
+    z-index: 2;
+  }
+}
+
 .explore-section .advertising .adv-content p.top {
   font-size: 20px;
   margin: 0;
@@ -1973,6 +1993,7 @@ a.button:hover {
 @media(max-width:991px) {
   .explore-section .gallery-img .gallery-item {
     height: 300px !important;
+    margin-top: 0px !important;
   }
 }
 

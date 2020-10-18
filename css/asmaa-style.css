@@ -236,68 +236,7 @@ a:hover {
   background: url("../images/contact/image.form.jpg") right no-repeat;
 }
 
-form {
-  width: 40%;
-  padding-left: 15px;
-  font-family: 'Comfortaa', cursive;
-  color: #666;
-  font-size: 13px;
-  margin: 0;
-}
 
-.form-group {
-  display: flex;
-}
-
-.form-group .form-wrapper {
-  width: 100%;
-}
-
-.form-group .form-wrapper:first-child {
-  margin-right: 15px;
-}
-
-.form-wrapper {
-  margin-bottom: 17px;
-}
-
-.form-wrapper label {
-  margin-bottom: 9px;
-  display: block;
-}
-
-.form-control {
-  border: 1px solid #666;
-  display: block;
-  width: 100%;
-  height: 40px;
-  /* padding: 0 20px;  */
-  border-radius: 20px;
-  font-family: 'Baloo Tamma 2', cursive;
-  background: none;
-}
-
-.form-control:focus {
-  border: 1px solid #ae3c33;
-}
-
-.tab-pane .form-control {
-  background: none;
-  outline: none;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-select {
-  /* -moz-appearance: none;
-  -webkit-appearance: none; */
-  cursor: pointer;
-  padding-left: 10px;
-}
-
-select option[value=""][disabled] {
-  display: none;
-}
 
 .btn {
   border: none;
@@ -400,7 +339,7 @@ select option[value=""][disabled] {
 
 @media (max-width: 991px) {
   .inner {
-    min-width: 768px;
+    min-width: 100%;
   }
 }
 
@@ -413,11 +352,11 @@ select option[value=""][disabled] {
   }
 }
 
-form {
+/* form {
   width: 40%;
   padding-right: 15px;
   padding-left: 15px;
-}
+} */
 
 /*<-- ******************************************* End Contact Form Area  *************************************** --> */
 
