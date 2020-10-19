@@ -228,6 +228,7 @@ a {
   z-index: 100;
   background-color: #252525;
   width: 100%;
+  box-shadow: 0 0 15px #555;
 }
 
 .search .nav-tabs {
@@ -330,8 +331,9 @@ a {
   font-weight: 600;
   /* letter-spacing: 3px; */
   transition: all .5s ease;
-  position: relative;
+  /* position: relative; */
   top: 10px;
+  width: 30%;
 }
 
 /*search button*/
