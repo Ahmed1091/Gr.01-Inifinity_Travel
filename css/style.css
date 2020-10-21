@@ -246,6 +246,15 @@ a {
   padding-left: 0 !important;
 }
 
+@media (max-width:750px)
+{
+  .search .nav-tabs {
+    padding-top: 100px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
 @media (max-width:767px) {
   .col-sm {
     padding-right: 15px;
